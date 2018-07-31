@@ -2,15 +2,39 @@
 
 Denne workshopen vil lære deg å lage server-side rendered React-apper med Next.js.
 
-## Hvorfor server side React?
+## Server side? What?
 
-### Kan man ikke gjøre det selv?
+I tillegg til å være et veldig kraftig verktøy for å lage frontenden din mer interaktiv,
+kan React også kjøre helt uten nettleser. Man kan rett og slett be React returnere en 
+string (eller en stream) med HTMLen det ellers ville insertet i DOMen din.
 
-## Hva er next.js?
+Dette gir en rekke fordeler. I likhet med andre server-side rendrete websider, får man 
+bedre søkbarhet for søkemotorer (eller for deling i sosiale medier), og ikke minst raskere
+tid til siden er tegna hos brukeren. Til slutt vil appen din fungere uten JavaScript i det
+hele tatt - det er ganske kult for en JavaScript-app.
+
+##  Kan man ikke gjøre det selv?
+
+Joda, det går fint an å gjøre dette helt uten hjelp - men det er ikke helt rett frem. Man 
+må løse routing for både backend og frontend, og man må hente inn data før man returnerer 
+responsen til serveren. Det er med andre ord en hel haug med feller å falle i, 
+
+## Hva er Next.js?
+
+Next.js er et bibliotek som løser de aller fleste problemene man møter på med server-side 
+rendring av React-apper. Det er et slags tynt lag over React, og kommer komplett med 
+routing og dev-server. Det er faktisk så populært at det er de-facto standarden for 
+server-side rendering av apper i dag - men vi bruker det ikke så mye i Bekk, enda).
+
+Det er Next.js vi skal leke oss med i dag - så her vil du bli godt kjent med hva som er 
+mulig i alle fall. Kanskje det blir en ny favoritt?
+
+Du finner hjemmesiden deres på [nextjs.org](https://nextjs.org/).
 
 ## Oppgaver
 
 Next.js har en fantastisk tutorial som tar deg gjennom det mest grunnleggende i Next.js.
+Det er denne tutorialen vi skal følge i dag, for å komme ordentlig i gang. 
 
 [Gå til oppgavene!](https://nextjs.org/learn/)
 
